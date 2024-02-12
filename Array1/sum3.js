@@ -5,7 +5,7 @@
 // sum3([5, 11, 2]) → 18
 // sum3([7, 0, 0]) → 7
 
-function sum3(a,b,c) {
+function sum3(nums) {
     let sum = 0
     for (let index = 0; index < nums.length; index++){
         sum += nums[index]

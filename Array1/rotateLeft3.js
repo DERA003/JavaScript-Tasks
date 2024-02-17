@@ -6,7 +6,12 @@
 // rotateLeft3([5, 11, 9]) → 11,9,5
 // rotateLeft3([7, 0, 0]) → 0,0,7
 
-function rotateLeft3(nums) {
-    let result = [3]
-     ==
-}
+function rotateLeft3(nums){
+    let newArr = [3]
+    newArr[0] = nums[1]
+    newArr[1] = nums[2]
+    newArr[2] = nums[0]
+    return newArr
+    
+  }
+  console.log(rotateLeft3([7, 0, 0]));
